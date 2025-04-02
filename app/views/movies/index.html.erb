@@ -12,7 +12,7 @@
 
 <% @movies.each do |movie| %>
   <div>
-    <%= render partial: "movies/movie", locals: { movie: movie } %>
+    <%= render partial: "movies/movie_card", locals: { movie: movie } %>
   </div>
 
 <% end %>
