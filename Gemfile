@@ -72,6 +72,7 @@ gem "strip_attributes"
 gem "validate_url"
 gem "carrierwave"
 gem "cloudinary"
+gem "devise"
 
 group :development do
   gem "annotaterb"
